@@ -5,7 +5,7 @@ Here is a little guide on how to get some correct dev tools and environement alo
 
 Please add your own as well!
 
-## Virtualization
+## The basic: Vagrant
 
 In order to all have the same dev. environement to develop our application, we use Vagrant, a command-line virtualization tool. Here is a quick step by step:
 
@@ -26,6 +26,8 @@ You will then be able to run commands into the right environement.
 **Important**: your github folder containing the `Vagrantfile`, will be accessible into your virtual box into the `/vagrant/` forlder.
 
 ## Tools
+
+Those tools are more recommended than really required.
 
 - [Sublime Text](http://www.sublimetext.com/3): An amazing text editor with extensive capabilities, especially thanks to the [package manager](https://sublime.wbond.net/installation). 
 - [iTerm](http://iterm2.com/): A waty better terminal for your mac.
