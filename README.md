@@ -29,6 +29,36 @@ You will then be able to run commands into the right environement.
 
 Those tools are more recommended than really required.
 
-- [Sublime Text](http://www.sublimetext.com/3): An amazing text editor with extensive capabilities, especially thanks to the [package manager](https://sublime.wbond.net/installation). 
-- [iTerm](http://iterm2.com/): A waty better terminal for your mac.
-- [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh): Great shell improver.
+### [Sublime Text](http://www.sublimetext.com/3)
+
+An amazing text editor with extensive capabilities, especially thanks to the [package manager](https://sublime.wbond.net/installation). 
+
+**N.B.:** The project capabilities of Sublime is amazingly useful.
+
+1. If you already have some files open from the same project, go to `Project>Save project as...` and save the file outside your github folder (it is personnal and therefore shouldn't be on a github repo). Then, you can go to `Project>Add folder to project...` and select your project folder. It will appear on the left and allows you to access rapidly all your project files!
+2. You can create/open another project. When you have multiple project, you can switch from one another with the shortcut `Cmd+ctl+p`. Sublime will remember all the files you had open.
+3. The configuration through the whole project is useful as well, see the [documentation](https://www.sublimetext.com/docs/3/projects.html). A good practice is to set the tab settings, here is an example:
+
+```json
+{
+  "folders":
+  [
+    {
+      "path": "path/to/your/project"
+    }
+  ],
+  "settings":
+  {
+    "tab_size": 4,
+    "translate_tabs_to_spaces": false
+  }
+}
+```
+
+### [iTerm](http://iterm2.com/)
+
+A waty better terminal for your mac.
+
+### [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
+
+Great shell improver. Usually already on your vagrant box. ;)
